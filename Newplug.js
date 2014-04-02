@@ -1449,7 +1449,7 @@ if (plugCubed !== undefined) plugCubed.close();
                             plugCubed.settings.recent = false;
                             plugCubed.saveSettings();
                         }, 18E4);
-                        API.sendChat('[KKKKK quero não] @' + data.from + ' ' + this.settings.awaymsg.split('@').join(''));
+                        API.sendChat('. @' + data.from + ' ' + this.settings.awaymsg.split('@').join(''));
                     }
                 } else if ($('.icon-chat-sound-on').length > 0) {
                     for (var i in this.settings.alertson) {
